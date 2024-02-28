@@ -281,8 +281,7 @@ div.tooltip-inner {
 /* modal */
 
 div.modal.mx-auto.component {
-    /* background-color: #00000085 !important; */
-    background-color: var(--modal-background-color) !important;
+    background-color: #00000085 !important;
 }
 
 
