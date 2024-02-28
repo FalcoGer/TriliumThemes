@@ -1,5 +1,3 @@
-/* fancy-light-theme */
-
 body {
     --h2-background-color: rgb(105 154 187 / 50%);
     --h3-background-color: rgb(112 175 164 / 40%);
@@ -390,339 +388,360 @@ div.quick-search.input-group.input-group-sm.component {
 /* ??? */
 
 div.note-book-card.block-link.expanded {
-    box-shadow: 1px 1px 1px 0px #111;
+	box-shadow: 1px 1px 1px 0px #111;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #222 !important;
+	background-color: #222 !important;
 }
 
 div#toast-container {
-    right: 0px !important;
-    bottom: 0px !important;
-    top: auto !important;
-    width: auto !important;
+	right: 0px !important;
+	bottom: 0px !important;
+	top: auto !important;
+	width: auto !important;
 }
 
 .switch-widget span.slider.checked {
-    background-color: var(--primary-button-background-color) !important;
+	background-color: var(--primary-button-background-color) !important;
 }
 
 div.note-detail div.ck-horizontal-line.ck-widget {
-    margin-top: 10px !important;
+	margin-top: 10px !important;
 }
 
 .ck-content hr {
-    margin-bottom: 10px !important;
+	margin-bottom: 10px !important;
 }
 
 body,
 span.fancytree-title {
-    font-family: var(--detail-font-family) !important;
-    top: 0px !important;
+	font-family: var(--detail-font-family) !important;
+	top: 0px !important;
 }
 
 span:not(.fancytree-active) span.fancytree-title {
-    font-weight: 500 !important;
+	font-weight: 500 !important;
 }
 
 .global-menu {
-    width: auto !important;
+
+	width: auto !important;
 }
 
 #launcher-container div.dropdown.right-dropdown-widget.dropright.component>button {
-    padding-left: 8px !important;
+	padding-left: 8px !important;
 }
 
 ul.fancytree-container li {
-    contain: initial;
+	contain: initial;
 }
 
 .global-menu-button {
-    background-image: url("../../../favicon.ico") !important;
-    background-size: 35px !important;
+	background-image: url("../../../favicon.ico") !important;
+	background-size: 35px !important;
 }
 
 div#launcher-pane.component {
-    width: 44px !important;
+	width: 44px !important;
 }
 
 #launcher-pane .launcher-button {
-    padding: initial !important;
+
+	padding: initial !important;
 }
 
 div.dropdown.global-menu.dropright.component>.icon-action {
-    border: 0px;
+	border: 0px;
 }
 
 .dropdown,
 .dropleft,
 .dropright,
 .dropup {
-    position: initial;
+	position: initial;
 }
 
 .sync-status .sync-status-icon {
-    padding: 13px 8px 8px 8px;
+	padding: 13px 8px 8px 8px;
 }
 
 .sync-status .sync-status-icon span {
-    padding: 13px 8px 8px 8px;
+	padding: 13px 8px 8px 8px;
 }
 
 div.quick-search.input-group.input-group-sm.component {
-    align-content: center;
+	align-content: center;
 }
 
 span.fancytree-node:not(.fancytree-folder) .fancytree-expander::before {
-    content: "\ec21" !important;
-    visibility: visible !important;
-    color: var(--left-pane-text-color) !important;
-    opacity: 0.1;
+	content: "\ec21" !important;
+	visibility: visible !important;
+	color: var(--left-pane-text-color) !important;
+	opacity: 0.1;
 }
 
 #center-pane .title-row .note-icon-widget button {
-    display: flex;
-    margin: 0;
+	display: flex;
+	margin: 0;
 }
 
 input.note-title {
-    font-family: var(--detail-font-family) !important;
-    font-weight: bold;
+	font-family: var(--detail-font-family) !important;
+	font-weight: bold;
 }
 
 .bx-dock-right::before {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 div#rest-pane>div.component {
-    height: 30px !important;
-    margin-bottom: 1px !important;
+	height: 30px !important;
+	margin-bottom: 1px !important;
 }
 
 .note-new-tab {
-    width: 30px !important;
-    height: 30px !important;
-    font-size: 19px !important;
+	width: 30px !important;
+	height: 30px !important;
+	font-size: 19px !important;
 }
 
 div#rest-pane div.tab-row-widget div.tab-row-widget-container div.note-tab div.note-tab-wrapper {
-    padding: 2px 5px 1px 5px !important;
-    height: 30px !important;
+	padding: 2px 5px 1px 5px !important;
+	height: 30px !important;
 }
 
 div.note-tab-wrapper div.note-tab-close.bx {
-    padding-bottom: 25px;
+	padding-bottom: 25px;
 }
 
 div#rest-pane div.tab-row-widget div.tab-row-widget-container div.note-tab div.note-tab-wrapper>div:hover {
-    background: none;
+	background: none;
 }
 
 div#rest-pane div.tab-row-widget div.tab-row-widget-container div.note-tab[active] .note-tab-wrapper div.note-tab-title::before {
-    content: "\203B ";
-    margin-right: 5px;
+	content: "\203B ";
+	margin-right: 5px;
 }
 
 .fancytree-node {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
 }
 
 span.fancytree-node.fancytree-active {
-    border-radius: 0px !important;
-    border: 0px !important;
+
+	border-radius: 0px !important;
+	border: 0px !important;
 }
 
 span.button-widget.icon-action.bx.component.bx-history,
 .ribbon-button-container .icon-action {
-    padding-top: 5px !important;
+	padding-top: 5px !important;
 }
 
 span.fancytree-node:hover {
-    border: 0px !important;
+	border: 0px !important;
 }
 
 span.fancytree-node {
-    border: 0px !important;
+	border: 0px !important;
 }
 
 .title-bar-buttons div button.icon-action {
-    font-size: 80% !important;
+	font-size: 80% !important;
 }
 
 .title-bar-buttons {
-    font-size: 12px;
+	font-size: 12px;
 }
 
 div.note-detail p {
-    margin-top: 0.1rem !important;
-    margin-bottom: 0.1rem !important;
+	margin-top: 0.1rem !important;
+	margin-bottom: 0.1rem !important;
 
-    text-indent: 2em;
+	text-indent: 2em;
 
-    text-align: justify;
-    text-justify: distribute;
+	text-align: justify;
+	text-justify: distribute;
 }
 
 div.note-detail p span.bx {
-    display: inline;
+	display: inline;
 }
 
 dl,
 ol,
 ul {
-    padding-left: 2em;
+	padding-left: 2em;
 }
 
 div.note-detail ul>li,
 ol>li {
-    text-align: justify;
-    text-justify: distribute;
+	text-align: justify;
+	text-justify: distribute;
 }
 
 blockquote>p {
-    text-indent: 0em;
+	text-indent: 0em;
 }
 
 p>span.ck-math-tex {
-    text-indent: 0em;
+	text-indent: 0em;
 }
+
 
 .note-detail {
-    line-height: 1.35;
+	line-height: 1.35;
 }
+
 
 .ck-content p>span.image-inline {
-    vertical-align: middle;
+	vertical-align: middle;
+
 }
+
 
 .ck-content figure.image {
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
 }
 
+
 div.note-detail.component span.image-inline {
-    border: 1px dashed var(--main-border-color);
+	border: 1px dashed var(--main-border-color);
 }
 
 div.note-detail.component figure.image {
-    border: 1px dashed var(--main-border-color);
+	border: 1px dashed var(--main-border-color);
 }
 
 ::selection {
-    background-color: rgba(70, 130, 180, 0.5) !important;
+	background-color: rgba(70, 130, 180, 0.5) !important;
+
 }
+
 
 .note-properties-widget {
-    padding: 0px !important;
+	padding: 0px !important;
 }
+
 
 .note-icon-widget.dropdown.component {
-    padding-top: 1.5px !important;
+	padding-top: 1.5px !important;
 }
 
+
 .basic-properties-widget>* {
-    margin-top: 0px !important;
+	margin-top: 0px !important;
 }
 
 div.attribute-list {
-    margin-top: 0px !important;
+	margin-top: 0px !important;
 }
 
+
 .basic-properties-widget {
-    padding: 0px 12px 0px 12px !important;
+	padding: 0px 12px 0px 12px !important;
 }
 
 .component {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
 }
 
 .inherited-attributes-container {
-    padding: 0px 12px 0px 12px !important;
+	padding: 0px 12px 0px 12px !important;
 }
 
 .add-new-attribute-button,
 .save-attributes-button {
-    bottom: 0px !important;
+	bottom: 0px !important;
 }
 
 
 #center-pane div.note-detail-editable-text div.note-detail-editable-text-editor.ck.ck-content pre,
 #center-pane .CodeMirror pre code {
-    padding: 0.2em;
-    margin: 0.5rem auto 0.5rem;
-    border-radius: 5px;
+
+	padding: 0.2em;
+
+	margin: 0.5rem auto 0.5rem;
+
+
+	border-radius: 5px;
 }
 
 .ck.ck-editor__editable pre[data-language]::after {
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
+
 span.katex * {
-    font-family: KaTeX_Main !important;
-    font: KaTeX_Main, Times New Roman, serif !important;
+	font-family: KaTeX_Main !important;
+	font: KaTeX_Main, Times New Roman, serif !important;
 }
 
 .katex-display {
-    margin: 0.1rem 0;
+	margin: 0.1rem 0;
 }
 
+
 .ck-content blockquote {
-    font-style: initial !important;
-    color: #708faf !important;
-    border-left: 5px solid var(--main-border-color) !important;
-    background: none repeat scroll 0 0 rgba(102, 128, 153, .1) !important;
-    padding: 2px 1px 3px 10px !important;
-    margin: 0.2rem 0 0 0 !important;
+	font-style: initial !important;
+	color: #708faf !important;
+	border-left: 5px solid var(--main-border-color) !important;
+	background: none repeat scroll 0 0 rgba(102, 128, 153, .1) !important;
+	padding: 2px 1px 3px 10px !important;
+	margin: 0.2rem 0 0 0 !important;
 }
 
 code {
-    font-size: 100% !important;
+	font-size: 100% !important;
 }
 
 blockquote>p {
-    margin-bottom: 0 !important;
-    text-indent: 1.7em !important;
+	margin-bottom: 0 !important;
+	text-indent: 1.7em !important;
 }
 
+
 .ck-content .table {
-    margin-top: 0.1rem;
-    margin-bottom: 0.1rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
 }
 
 .ck-content .table table td,
 .ck-content .table table th {
-    border: 1px solid var(--main-border-color) !important;
+	border: 1px solid var(--main-border-color) !important;
 }
 
 .ck-content .table table {
-    border: 1px solid var(--main-border-color) !important;
+	border: 1px solid var(--main-border-color) !important;
 }
 
+
 .form-control {
-    border: 1px solid var(--main-border-color) !important;
+	border: 1px solid var(--main-border-color) !important;
 }
 
 .input-group-text {
-    border: 1px solid var(--main-border-color) !important;
+	border: 1px solid var(--main-border-color) !important;
 }
 
 div.shared-info-widget.alert.alert-warning.component {
-    margin-top: 0;
-    margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 
 :focus-visible {
-    outline: 2px solid var(--main-border-color);
+	outline: 2px solid var(--main-border-color);
 }
 
 div.note-title-widget.component>input.note-title {
-    margin-top: 2px;
+	margin-top: 2px;
 }
 
 div.note-icon-widget>button.bx.bx-code.note-icon {
-    margin-top: 2px !important;
+	margin-top: 2px !important;
 }
