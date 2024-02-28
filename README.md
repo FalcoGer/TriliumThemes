@@ -13,3 +13,6 @@ Files to be used as themes for trilium notes
 ![image](https://github.com/FalcoGer/TriliumThemes/assets/16250196/a60dc2a7-ffc0-4be2-80fa-316e8f089d14)
 ### Dark Theme
 ![image](https://github.com/FalcoGer/TriliumThemes/assets/16250196/c3af190f-922e-46f1-9d42-48be5373afb0)
+
+## Credits
+~Stolen from~ Inspired by https://github.com/SiriusXT/trilium-theme-blue
