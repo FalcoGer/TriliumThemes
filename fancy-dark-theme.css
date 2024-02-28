@@ -1,119 +1,116 @@
-/* Fancy Dark Theme */
-
 body {
-    --h2-background-color: rgb(105 154 187 / 50%);
-    --h3-background-color: rgb(112 175 164 / 40%);
-    --h4-background-color: rgb(215 187 162 / 40%);
-    --h5-background-color: rgb(190 186 206 / 40%);
-    --h6-background-color: rgb(197 197 197 / 40%);
-    --ck-color-table-focused-cell-background: #1E1E1E;
-    --ck-color-focus-border: #bfbfbf;
+	--h2-background-color: rgb(105 154 187 / 50%);
+	--h3-background-color: rgb(112 175 164 / 40%);
+	--h4-background-color: rgb(215 187 162 / 40%);
+	--h5-background-color: rgb(190 186 206 / 40%);
+	--h6-background-color: rgb(197 197 197 / 40%);
+	--ck-color-table-focused-cell-background: #1E1E1E;
+	--ck-color-focus-border: #bfbfbf;
 }
 
 :root {
-    --theme-style: dark;
-    --main-background-color: #1E1E1E;
-    --main-text-color: #d4d4d4;
-    --main-border-color: #333333;
+	--theme-style: dark;
+	--main-background-color: #1E1E1E;
+	--main-text-color: #d4d4d4;
+	--main-border-color: #333333;
 
-    --accented-background-color: #222;
-    /*rgb(51, 51, 51);*/
-    --more-accented-background-color: #1b1b1b;
+	--accented-background-color: #222;
+	--more-accented-background-color: #1b1b1b;
 
-    --button-background-color: transparent;
-    --button-border-color: #333;
-    --button-text-color: currentColor;
-    --button-border-radius: 3px;
-    --button-disabled-background-color: transparent;
-    --button-disabled-text-color: #999;
+	--button-background-color: transparent;
+	--button-border-color: #333;
+	--button-text-color: currentColor;
+	--button-border-radius: 3px;
+	--button-disabled-background-color: transparent;
+	--button-disabled-text-color: #999;
 
-    --primary-button-background-color: #0E639C50;
-    --primary-button-text-color: #ccc;
-    --primary-button-border-color: transparent;
+	--primary-button-background-color: #0E639C50;
+	--primary-button-text-color: #ccc;
+	--primary-button-border-color: transparent;
 
-    --muted-text-color: #bbb;
+	--muted-text-color: #bbb;
 
-    --input-text-color: #ccc;
-    --input-background-color: #333;
+	--input-text-color: #ccc;
+	--input-background-color: #333;
 
-    --hover-item-text-color: #ccc;
-    --hover-item-background-color: transparent;
-    --hover-item-border-color: #333;
+	--hover-item-text-color: #ccc;
+	--hover-item-background-color: transparent;
+	--hover-item-border-color: #333;
 
-    --active-item-text-color: #ccc;
-    --active-item-background-color: #4682B430;
-    --active-item-border-color: transparent;
+	--active-item-text-color: #ccc;
+	--active-item-background-color: #4682B430;
+	--active-item-border-color: transparent;
 
-    --menu-text-color: #ccc;
-    --menu-background-color: #222;
+	--menu-text-color: #ccc;
+	--menu-background-color: #222;
 
-    --modal-background-color: #333;
-    --modal-backdrop-color: #444;
+	--modal-background-color: #333;
+	--modal-backdrop-color: #444;
 
-    --left-pane-background-color: #252526;
-    --left-pane-text-color: #AAAAAA;
+	--left-pane-background-color: #252526;
+	--left-pane-text-color: #AAAAAA;
 
-    --launcher-pane-background-color: #333333;
-    --launcher-pane-text-color: rgba(255, 255, 255, 0.4);
+	--launcher-pane-background-color: #333333;
+	--launcher-pane-text-color: rgba(255, 255, 255, 0.4);
 
-    --active-tab-background-color: rgb(30, 30, 30);
-    --active-tab-hover-background-color: rgb(30, 30, 30);
-    --active-tab-text-color: rgb(255, 255, 255);
+	--active-tab-background-color: rgb(30, 30, 30);
+	--active-tab-hover-background-color: rgb(30, 30, 30);
+	--active-tab-text-color: rgb(255, 255, 255);
 
-    --inactive-tab-background-color: rgb(51, 51, 51);
-    --inactive-tab-hover-background-color: rgb(51, 51, 51);
-    --inactive-tab-text-color: rgba(255, 255, 255, 0.5);
+	--inactive-tab-background-color: rgb(51, 51, 51);
+	--inactive-tab-hover-background-color: rgb(51, 51, 51);
+	--inactive-tab-text-color: rgba(255, 255, 255, 0.5);
 
-    --scrollbar-border-color: #333;
-    --tooltip-background-color: #333;
-    --link-color: #4682B4;
+	--scrollbar-border-color: #333;
+	--tooltip-background-color: #333;
+	--link-color: #4682B4;
 
-    --fancy1: hsl(0, 70%, 60%);
-    --fancy2: hsl(40, 60%, 60%);
-    --fancy3: hsl(100, 60%, 60%);
-    --fancy4: hsl(180, 60%, 60%);
-    --fancy5: hsl(240, 60%, 60%);
-    --fancy6: hsl(270, 60%, 60%);
+	--fancy1: hsl(0, 70%, 60%);
+	--fancy2: hsl(40, 60%, 60%);
+	--fancy3: hsl(100, 60%, 60%);
+	--fancy4: hsl(180, 60%, 60%);
+	--fancy5: hsl(240, 60%, 60%);
+	--fancy6: hsl(270, 60%, 60%);
 
-    --fancy1-desat: hsl(0, 33%, 10%);
-    --fancy2-desat: hsl(40, 30%, 10%);
-    --fancy3-desat: hsl(100, 30%, 10%);
-    --fancy4-desat: hsl(180, 30%, 10%);
-    --fancy5-desat: hsl(240, 30%, 10%);
-    --fancy6-desat: hsl(270, 30%, 10%);
+	--fancy1-desat: hsl(0, 33%, 10%);
+	--fancy2-desat: hsl(40, 30%, 10%);
+	--fancy3-desat: hsl(100, 30%, 10%);
+	--fancy4-desat: hsl(180, 30%, 10%);
+	--fancy5-desat: hsl(240, 30%, 10%);
+	--fancy6-desat: hsl(270, 30%, 10%);
 
-    --mermaid-theme: dark;
-    --ck-color-code-block-label-background: #333;
+	--mermaid-theme: dark;
+	--ck-color-code-block-label-background: #333;
 }
 
 body ::-webkit-calendar-picker-indicator {
-    filter: invert(1);
+	filter: invert(1);
 }
 
 /* code notes */
 body .CodeMirror {
-    filter: invert(88%) hue-rotate(180deg);
+	filter: invert(88%) hue-rotate(180deg);
 }
 
 body div.CodeMirror-vscrollbar::-webkit-scrollbar-thumb {
-    border-radius: 5px !important;
-    background: #ddd !important;
-    border-color: #ccc;
+	border-radius: 5px !important;
+	background: #ddd !important;
+	border-color: #ccc;
 }
 
 /* canvas SVG type notes */
 div.note-book-content.type-canvas>div.rendered-note-content>svg {
-    filter: invert(88%) hue-rotate(180deg);
+	filter: invert(88%) hue-rotate(180deg);
 }
 
 /* ??? */
 .excalidraw.theme--dark {
-    --theme-filter: invert(80%) hue-rotate(180deg) !important;
+	--theme-filter: invert(80%) hue-rotate(180deg) !important;
 }
 
 /* Trilium button in left bar */
 div#launcher-pane .global-menu-button {
-    /* filter: invert(0.5); */
+	/* filter: invert(0.5); */
 }
 
 /* ====================================== */
@@ -121,123 +118,123 @@ div#launcher-pane .global-menu-button {
 /* Note tree fancy left border in color */
 
 div.tree:not(.fancytree-ext-filter.fancytree-ext-filter-hide) li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n) {
-    border-left: 3px solid var(--fancy1);
-    border-top-left-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
+	border-left: 3px solid var(--fancy1);
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
 }
 
 div.tree:not(.fancytree-ext-filter.fancytree-ext-filter-hide) li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+1) {
-    border-left: 3px solid var(--fancy2);
-    border-top-left-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
+	border-left: 3px solid var(--fancy2);
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
 }
 
 div.tree:not(.fancytree-ext-filter.fancytree-ext-filter-hide) li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+2) {
-    border-left: 3px solid var(--fancy3);
-    border-top-left-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
+	border-left: 3px solid var(--fancy3);
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
 }
 
 div.tree:not(.fancytree-ext-filter.fancytree-ext-filter-hide) li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+3) {
-    border-left: 3px solid var(--fancy4);
-    border-top-left-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
+	border-left: 3px solid var(--fancy4);
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
 }
 
 div.tree:not(.fancytree-ext-filter.fancytree-ext-filter-hide) li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+4) {
-    border-left: 3px solid var(--fancy5);
-    border-top-left-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
+	border-left: 3px solid var(--fancy5);
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
 }
 
 div.tree:not(.fancytree-ext-filter.fancytree-ext-filter-hide) li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+5) {
-    border-left: 3px solid var(--fancy6);
-    border-top-left-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
+	border-left: 3px solid var(--fancy6);
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
 }
 
 /* Note tree hover, all children */
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n):hover {
-    background-color: var(--fancy1-desat) !important;
+	background-color: var(--fancy1-desat) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+1):hover {
-    background-color: var(--fancy2-desat) !important;
+	background-color: var(--fancy2-desat) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+2):hover {
-    background-color: var(--fancy3-desat) !important;
+	background-color: var(--fancy3-desat) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+3):hover {
-    background-color: var(--fancy4-desat) !important;
+	background-color: var(--fancy4-desat) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+4):hover {
-    background-color: var(--fancy5-desat) !important;
+	background-color: var(--fancy5-desat) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+5):hover {
-    background-color: var(--fancy6-desat) !important;
+	background-color: var(--fancy6-desat) !important;
 }
 
 /* Note tree span under cursor hover (just the item) */
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n)>span.fancytree-node:hover {
-    color: var(--inactive-tab-text-color) !important;
-    background-color: var(--inactive-tab-hover-background-color) !important;
+	color: var(--inactive-tab-text-color) !important;
+	background-color: var(--inactive-tab-hover-background-color) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+1)>span.fancytree-node:hover {
-    color: var(--inactive-tab-text-color) !important;
-    background-color: var(--inactive-tab-hover-background-color) !important;
+	color: var(--inactive-tab-text-color) !important;
+	background-color: var(--inactive-tab-hover-background-color) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+2)>span.fancytree-node:hover {
-    color: var(--inactive-tab-text-color) !important;
-    background-color: var(--inactive-tab-hover-background-color) !important;
+	color: var(--inactive-tab-text-color) !important;
+	background-color: var(--inactive-tab-hover-background-color) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+3)>span.fancytree-node:hover {
-    color: var(--inactive-tab-text-color) !important;
-    background-color: var(--inactive-tab-hover-background-color) !important;
+	color: var(--inactive-tab-text-color) !important;
+	background-color: var(--inactive-tab-hover-background-color) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+4)>span.fancytree-node:hover {
-    color: var(--inactive-tab-text-color) !important;
-    background-color: var(--inactive-tab-hover-background-color) !important;
+	color: var(--inactive-tab-text-color) !important;
+	background-color: var(--inactive-tab-hover-background-color) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+5)>span.fancytree-node:hover {
-    color: var(--inactive-tab-text-color) !important;
-    background-color: var(--inactive-tab-hover-background-color) !important;
+	color: var(--inactive-tab-text-color) !important;
+	background-color: var(--inactive-tab-hover-background-color) !important;
 }
 
 /* Note Tree active background */
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n)>span.fancytree-node.fancytree-active {
-    background-color: var(--fancy1-desat) !important;
+	background-color: var(--fancy1-desat) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+1)>span.fancytree-node.fancytree-active {
-    background-color: var(--fancy2-desat) !important;
+	background-color: var(--fancy2-desat) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+2)>span.fancytree-node.fancytree-active {
-    background-color: var(--fancy3-desat) !important;
+	background-color: var(--fancy3-desat) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+3)>span.fancytree-node.fancytree-active {
-    background-color: var(--fancy4-desat) !important;
+	background-color: var(--fancy4-desat) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+4)>span.fancytree-node.fancytree-active {
-    background-color: var(--fancy5-desat) !important;
+	background-color: var(--fancy5-desat) !important;
 }
 
 li.fancytree-lastsib ul li[role='treeitem']:nth-of-type(6n+5)>span.fancytree-node.fancytree-active {
-    background-color: var(--fancy6-desat) !important;
+	background-color: var(--fancy6-desat) !important;
 }
 
 /* ====================================== */
@@ -248,7 +245,7 @@ div.note-detail.component .hljs-keyword,
 div.note-detail.component .hljs-name,
 div.note-detail.component .hljs-selector-tag,
 div.note-detail.component .hljs-tag {
-    color: #4aa8b7;
+	color: #4aa8b7;
 }
 
 /* ??? */
@@ -261,31 +258,31 @@ div.note-detail.component .hljs-tag {
 .hljs-template-variable,
 .hljs-title,
 .hljs-type {
-    color: #bd3c16;
+	color: #bd3c16;
 }
 
 /* Code block background for text only */
 div.note-detail.component .ck-content code {
-    background-color: var(--accented-background-color);
+	background-color: var(--accented-background-color);
 }
 
 /* Actual code block without text */
 .ck-content pre {
-    border: 1px solid var(--more-accented-background-color) !important;
-    border-radius: 2px !important;
-    background-color: var(--accented-background-color);
+	border: 1px solid var(--more-accented-background-color) !important;
+	border-radius: 2px !important;
+	background-color: var(--accented-background-color);
 }
 
 /* tooltip */
 div.tooltip-inner {
-    box-shadow: 0px 0px 0px 0px #000 !important;
+	box-shadow: 0px 0px 0px 0px #000 !important;
 }
 
 /* modal */
 
 div.modal.mx-auto.component {
-    /* background-color: #00000085 !important; */
-    background-color: var(--modal-background-color) !important;
+	/* background-color: #00000085 !important; */
+	background-color: var(--modal-background-color) !important;
 }
 
 
@@ -293,55 +290,55 @@ div.modal.mx-auto.component {
 /* Headers */
 
 div.component.note-split.type-text h1 {
-    padding-left: 0.4em;
-    border-left: 9px solid rgba(0, 0, 0, 1);
-    border-bottom: 1px solid rgba(0, 0, 0, 1);
+	padding-left: 0.4em;
+	border-left: 9px solid rgba(0, 0, 0, 1);
+	border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 
 div.component.note-split.type-text h2:not(div.note-list-widget h2) {
-    background: var(--h2-background-color);
-    border-radius: 6px 6px 6px 6px;
+	background: var(--h2-background-color);
+	border-radius: 6px 6px 6px 6px;
 
 
-    padding: 5px 0 2px 10px;
-    text-shadow: 2px 2px 3px var(--main-background-color);
+	padding: 5px 0 2px 10px;
+	text-shadow: 2px 2px 3px var(--main-background-color);
 }
 
 div.component.note-split.type-text h3:not(div.note-list-widget h3) {
-    background: var(--h3-background-color);
-    border-radius: 6px 6px 6px 6px;
+	background: var(--h3-background-color);
+	border-radius: 6px 6px 6px 6px;
 
 
-    padding: 4px 0 2px 10px;
-    text-shadow: 2px 2px 3px var(--main-background-color);
+	padding: 4px 0 2px 10px;
+	text-shadow: 2px 2px 3px var(--main-background-color);
 }
 
 div.component.note-split.type-text h4:not(div.note-list-widget h4) {
-    background: var(--h4-background-color);
-    border-radius: 6px 6px 6px 6px;
+	background: var(--h4-background-color);
+	border-radius: 6px 6px 6px 6px;
 
 
-    padding: 3px 0 2px 10px;
-    text-shadow: 2px 2px 3px var(--main-background-color);
+	padding: 3px 0 2px 10px;
+	text-shadow: 2px 2px 3px var(--main-background-color);
 }
 
 div.component.note-split.type-text h5:not(.note-book-header):not(div.note-list-widget h5) {
-    background: var(--h5-background-color);
-    border-radius: 6px 6px 6px 6px;
+	background: var(--h5-background-color);
+	border-radius: 6px 6px 6px 6px;
 
 
-    padding: 2px 0 2px 10px;
-    text-shadow: 2px 2px 3px var(--main-background-color);
+	padding: 2px 0 2px 10px;
+	text-shadow: 2px 2px 3px var(--main-background-color);
 }
 
 div.component.note-split.type-text h6:not(div.note-list-widget h6) {
-    background: var(--h6-background-color);
-    border-radius: 6px 6px 6px 6px;
+	background: var(--h6-background-color);
+	border-radius: 6px 6px 6px 6px;
 
 
-    padding: 1px 0 2px 10px;
-    text-shadow: 2px 2px 3px var(--main-background-color);
+	padding: 1px 0 2px 10px;
+	text-shadow: 2px 2px 3px var(--main-background-color);
 }
 
 
@@ -351,8 +348,8 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: .3rem !important;
-    margin-bottom: .15rem !important;
+	margin-top: .3rem !important;
+	margin-bottom: .15rem !important;
 }
 
 /* ====================================== */
@@ -360,27 +357,27 @@ h6 {
 /* Table of Contents (right pane) */
 
 div.toc-widget span.toc>ol>li {
-    background-color: var(--h2-background-color);
+	background-color: var(--h2-background-color);
 }
 
 div.toc-widget span.toc>ol>ol>li {
-    background-color: var(--h3-background-color);
+	background-color: var(--h3-background-color);
 }
 
 div.toc-widget span.toc>ol>ol>ol>li {
-    background-color: var(--h4-background-color);
+	background-color: var(--h4-background-color);
 }
 
 div.toc-widget span.toc>ol>ol>ol>ol>li {
-    background-color: var(--h5-background-color);
+	background-color: var(--h5-background-color);
 }
 
 div.toc-widget span.toc>ol>ol>ol>ol>ol>li {
-    background-color: var(--h6-background-color);
+	background-color: var(--h6-background-color);
 }
 
 div.toc-widget .toc ol {
-    padding-left: 15px;
+	padding-left: 15px;
 }
 
 /* ====================================== */
@@ -388,370 +385,370 @@ div.toc-widget .toc ol {
 /* Table tools (?) */
 
 div#rest-pane.component div.tab-row-widget.component {
-    box-shadow: 0px 1px #111;
+	box-shadow: 0px 1px #111;
 }
 
 div.quick-search.input-group.input-group-sm.component {
-    box-shadow: 0px 1px #111;
+	box-shadow: 0px 1px #111;
 }
 
 /* ??? */
 
 div.note-book-card.block-link.expanded {
-    box-shadow: 1px 1px 1px 0px #111;
+	box-shadow: 1px 1px 1px 0px #111;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #222 !important;
+	background-color: #222 !important;
 }
 
 div#toast-container {
-    right: 0px !important;
-    bottom: 0px !important;
-    top: auto !important;
-    width: auto !important;
+	right: 0px !important;
+	bottom: 0px !important;
+	top: auto !important;
+	width: auto !important;
 }
 
 .switch-widget span.slider.checked {
-    background-color: var(--primary-button-background-color) !important;
+	background-color: var(--primary-button-background-color) !important;
 }
 
 div.note-detail div.ck-horizontal-line.ck-widget {
-    margin-top: 10px !important;
+	margin-top: 10px !important;
 }
 
 .ck-content hr {
-    margin-bottom: 10px !important;
+	margin-bottom: 10px !important;
 }
 
 body,
 span.fancytree-title {
-    font-family: var(--detail-font-family) !important;
-    top: 0px !important;
+	font-family: var(--detail-font-family) !important;
+	top: 0px !important;
 }
 
 span:not(.fancytree-active) span.fancytree-title {
-    font-weight: 500 !important;
+	font-weight: 500 !important;
 }
 
 .global-menu {
 
-    width: auto !important;
+	width: auto !important;
 }
 
 #launcher-container div.dropdown.right-dropdown-widget.dropright.component>button {
-    padding-left: 8px !important;
+	padding-left: 8px !important;
 }
 
 ul.fancytree-container li {
-    contain: initial;
+	contain: initial;
 }
 
 .global-menu-button {
-    background-image: url("../../../favicon.ico") !important;
-    background-size: 35px !important;
+	background-image: url("../../../favicon.ico") !important;
+	background-size: 35px !important;
 }
 
 div#launcher-pane.component {
-    width: 44px !important;
+	width: 44px !important;
 }
 
 #launcher-pane .launcher-button {
 
-    padding: initial !important;
+	padding: initial !important;
 }
 
 div.dropdown.global-menu.dropright.component>.icon-action {
-    border: 0px;
+	border: 0px;
 }
 
 .dropdown,
 .dropleft,
 .dropright,
 .dropup {
-    position: initial;
+	position: initial;
 }
 
 .sync-status .sync-status-icon {
-    padding: 13px 8px 8px 8px;
+	padding: 13px 8px 8px 8px;
 }
 
 .sync-status .sync-status-icon span {
-    padding: 13px 8px 8px 8px;
+	padding: 13px 8px 8px 8px;
 }
 
 div.quick-search.input-group.input-group-sm.component {
-    align-content: center;
+	align-content: center;
 }
 
 span.fancytree-node:not(.fancytree-folder) .fancytree-expander::before {
-    content: "\ec21" !important;
-    visibility: visible !important;
-    color: var(--left-pane-text-color) !important;
-    opacity: 0.1;
+	content: "\ec21" !important;
+	visibility: visible !important;
+	color: var(--left-pane-text-color) !important;
+	opacity: 0.1;
 }
 
 #center-pane .title-row .note-icon-widget button {
-    display: flex;
-    margin: 0;
+	display: flex;
+	margin: 0;
 }
 
 input.note-title {
-    font-family: var(--detail-font-family) !important;
-    font-weight: bold;
+	font-family: var(--detail-font-family) !important;
+	font-weight: bold;
 }
 
 .bx-dock-right::before {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 div#rest-pane>div.component {
-    height: 30px !important;
-    margin-bottom: 1px !important;
+	height: 30px !important;
+	margin-bottom: 1px !important;
 }
 
 .note-new-tab {
-    width: 30px !important;
-    height: 30px !important;
-    font-size: 19px !important;
+	width: 30px !important;
+	height: 30px !important;
+	font-size: 19px !important;
 }
 
 div#rest-pane div.tab-row-widget div.tab-row-widget-container div.note-tab div.note-tab-wrapper {
-    padding: 2px 5px 1px 5px !important;
-    height: 30px !important;
+	padding: 2px 5px 1px 5px !important;
+	height: 30px !important;
 }
 
 div.note-tab-wrapper div.note-tab-close.bx {
-    padding-bottom: 25px;
+	padding-bottom: 25px;
 }
 
 div#rest-pane div.tab-row-widget div.tab-row-widget-container div.note-tab div.note-tab-wrapper>div:hover {
-    background: none;
+	background: none;
 }
 
 div#rest-pane div.tab-row-widget div.tab-row-widget-container div.note-tab[active] .note-tab-wrapper div.note-tab-title::before {
-    content: "\203B ";
-    margin-right: 5px;
+	content: "\203B ";
+	margin-right: 5px;
 }
 
 .fancytree-node {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
 }
 
 span.fancytree-node.fancytree-active {
 
-    border-radius: 0px !important;
-    border: 0px !important;
+	border-radius: 0px !important;
+	border: 0px !important;
 }
 
 span.button-widget.icon-action.bx.component.bx-history,
 .ribbon-button-container .icon-action {
-    padding-top: 5px !important;
+	padding-top: 5px !important;
 }
 
 span.fancytree-node:hover {
-    border: 0px !important;
+	border: 0px !important;
 }
 
 span.fancytree-node {
-    border: 0px !important;
+	border: 0px !important;
 }
 
 .title-bar-buttons div button.icon-action {
-    font-size: 80% !important;
+	font-size: 80% !important;
 }
 
 .title-bar-buttons {
-    font-size: 12px;
+	font-size: 12px;
 }
 
 div.note-detail p {
-    margin-top: 0.1rem !important;
-    margin-bottom: 0.1rem !important;
+	margin-top: 0.1rem !important;
+	margin-bottom: 0.1rem !important;
 
-    text-indent: 2em;
+	text-indent: 2em;
 
-    text-align: justify;
-    text-justify: distribute;
+	text-align: justify;
+	text-justify: distribute;
 }
 
 div.note-detail p span.bx {
-    display: inline;
+	display: inline;
 }
 
 dl,
 ol,
 ul {
-    padding-left: 2em;
+	padding-left: 2em;
 }
 
 div.note-detail ul>li,
 ol>li {
-    text-align: justify;
-    text-justify: distribute;
+	text-align: justify;
+	text-justify: distribute;
 }
 
 blockquote>p {
-    text-indent: 0em;
+	text-indent: 0em;
 }
 
 p>span.ck-math-tex {
-    text-indent: 0em;
+	text-indent: 0em;
 }
 
 
 .note-detail {
-    line-height: 1.35;
+	line-height: 1.35;
 }
 
 
 .ck-content p>span.image-inline {
-    vertical-align: middle;
+	vertical-align: middle;
 
 }
 
 
 .ck-content figure.image {
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
 }
 
 
 div.note-detail.component span.image-inline {
-    border: 1px dashed var(--main-border-color);
+	border: 1px dashed var(--main-border-color);
 }
 
 div.note-detail.component figure.image {
-    border: 1px dashed var(--main-border-color);
+	border: 1px dashed var(--main-border-color);
 }
 
 ::selection {
-    background-color: rgba(70, 130, 180, 0.5) !important;
+	background-color: rgba(70, 130, 180, 0.5) !important;
 
 }
 
 
 .note-properties-widget {
-    padding: 0px !important;
+	padding: 0px !important;
 }
 
 
 .note-icon-widget.dropdown.component {
-    padding-top: 1.5px !important;
+	padding-top: 1.5px !important;
 }
 
 
 .basic-properties-widget>* {
-    margin-top: 0px !important;
+	margin-top: 0px !important;
 }
 
 div.attribute-list {
-    margin-top: 0px !important;
+	margin-top: 0px !important;
 }
 
 
 .basic-properties-widget {
-    padding: 0px 12px 0px 12px !important;
+	padding: 0px 12px 0px 12px !important;
 }
 
 .component {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
 }
 
 .inherited-attributes-container {
-    padding: 0px 12px 0px 12px !important;
+	padding: 0px 12px 0px 12px !important;
 }
 
 .add-new-attribute-button,
 .save-attributes-button {
-    bottom: 0px !important;
+	bottom: 0px !important;
 }
 
 
 #center-pane div.note-detail-editable-text div.note-detail-editable-text-editor.ck.ck-content pre,
 #center-pane .CodeMirror pre code {
 
-    padding: 0.2em;
+	padding: 0.2em;
 
-    margin: 0.5rem auto 0.5rem;
+	margin: 0.5rem auto 0.5rem;
 
 
-    border-radius: 5px;
+	border-radius: 5px;
 }
 
 .ck.ck-editor__editable pre[data-language]::after {
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
 
 span.katex * {
-    font-family: KaTeX_Main !important;
-    font: KaTeX_Main, Times New Roman, serif !important;
+	font-family: KaTeX_Main !important;
+	font: KaTeX_Main, Times New Roman, serif !important;
 }
 
 .katex-display {
-    margin: 0.1rem 0;
+	margin: 0.1rem 0;
 }
 
 
 .ck-content blockquote {
-    font-style: initial !important;
-    color: #708faf !important;
-    border-left: 5px solid var(--main-border-color) !important;
-    background: none repeat scroll 0 0 rgba(102, 128, 153, .1) !important;
-    padding: 2px 1px 3px 10px !important;
-    margin: 0.2rem 0 0 0 !important;
+	font-style: initial !important;
+	color: #708faf !important;
+	border-left: 5px solid var(--main-border-color) !important;
+	background: none repeat scroll 0 0 rgba(102, 128, 153, .1) !important;
+	padding: 2px 1px 3px 10px !important;
+	margin: 0.2rem 0 0 0 !important;
 }
 
 code {
-    font-size: 100% !important;
+	font-size: 100% !important;
 }
 
 blockquote>p {
-    margin-bottom: 0 !important;
-    text-indent: 1.7em !important;
+	margin-bottom: 0 !important;
+	text-indent: 1.7em !important;
 }
 
 
 .ck-content .table {
-    margin-top: 0.1rem;
-    margin-bottom: 0.1rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
 }
 
 .ck-content .table table td,
 .ck-content .table table th {
-    border: 1px solid var(--main-border-color) !important;
+	border: 1px solid var(--main-border-color) !important;
 }
 
 .ck-content .table table {
-    border: 1px solid var(--main-border-color) !important;
+	border: 1px solid var(--main-border-color) !important;
 }
 
 
 .form-control {
-    border: 1px solid var(--main-border-color) !important;
+	border: 1px solid var(--main-border-color) !important;
 }
 
 .input-group-text {
-    border: 1px solid var(--main-border-color) !important;
+	border: 1px solid var(--main-border-color) !important;
 }
 
 div.shared-info-widget.alert.alert-warning.component {
-    margin-top: 0;
-    margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 
 :focus-visible {
-    outline: 2px solid var(--main-border-color);
+	outline: 2px solid var(--main-border-color);
 }
 
 div.note-title-widget.component>input.note-title {
-    margin-top: 2px;
+	margin-top: 2px;
 }
 
 div.note-icon-widget>button.bx.bx-code.note-icon {
-    margin-top: 2px !important;
+	margin-top: 2px !important;
 }
