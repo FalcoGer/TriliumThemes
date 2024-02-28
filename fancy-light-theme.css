@@ -24,8 +24,8 @@ body {
     --button-disabled-background-color: transparent;
     --button-disabled-text-color: #999;
 
-    --primary-button-background-color: #0E639C50;
-    --primary-button-text-color: #ccc;
+    --primary-button-background-color: #0E639C;
+    --primary-button-text-color: #FFF;
     --primary-button-border-color: transparent;
 
     --muted-text-color: #444;
@@ -283,7 +283,7 @@ div.tooltip-inner {
 
 /* modal */
 div.modal.mx-auto.component {
-    background-color: var(--modal-background-color) !important;
+    background-color: #00000085 !important;
 }
 
 /* ====================================== */
