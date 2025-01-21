@@ -425,7 +425,6 @@ span:not(.fancytree-active) span.fancytree-title {
 }
 
 .global-menu {
-
 	width: auto !important;
 }
 
@@ -437,10 +436,12 @@ ul.fancytree-container li {
 	contain: initial;
 }
 
+/*
 .global-menu-button {
 	background-image: url("../../../favicon.ico") !important;
 	background-size: 35px !important;
 }
+*/
 
 div#launcher-pane.component {
 	width: 44px !important;
